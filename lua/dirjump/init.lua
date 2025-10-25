@@ -5,7 +5,6 @@ local defaults = {
 	depth = 4,
 	scope = "tcd", -- "cd" | "tcd" | "lcd"
 	prompt = "cd to…",
-  open_dir = "auto", -- "auto" | "none" | "oil" | "neo-tree" | "nvim-tree" | "mini.files" | "netrw"
 }
 
 M.opts = vim.deepcopy(defaults)
