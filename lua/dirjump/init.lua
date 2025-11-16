@@ -1,7 +1,7 @@
 local M = {}
 
 local defaults = {
-	search_root = vim.loop.os_homedir(),
+	search_root = vim.loop.os_homedir(), -- or vim.loop.cwd()
 	depth = 4,
 	scope = "tcd", -- "cd" | "tcd" | "lcd"
 	prompt = "cd to…",
