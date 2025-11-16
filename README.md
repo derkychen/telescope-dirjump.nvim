@@ -1,4 +1,4 @@
-# dirjump.nvim
+# telescope-dirjump.nvim
 
 Use telescope to cd, tcd, or lcd.
 
